@@ -1,9 +1,0 @@
-<article class="post featured">
-								<header class="major">
-									<h2>Projects</h2>
-								</header>
-								<a href="#" class="image main"><img src="images/TylerResume.PNG" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="index.html" class="button large">Home</a></li>
-								</ul>
-							</article>
