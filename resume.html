@@ -5,7 +5,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+<style>
+	.zoomable-container {
+		position: relative;
+		display: inline-block;
+		overflow: hidden;
+	}
 
+	.zoomable-image {
+		transition: transform 0.3s ease-in-out;
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+
+	.zoomable-container:hover .zoomable-image {
+		transform: scale(1.05); /* Adjust the scale factor for the desired zoom level */
+	}
+</style>
 <head>
 	<title>Tyler Scherzer Resume</title>
 	<meta charset="utf-8" />
@@ -23,6 +40,7 @@
 	<!-- Header -->
 	<header id="header">
 		<h1>Tyler Scherzer's Portfolio.</h1>
+		<p>Tyler Scherzer's Digital Portfolio</p>
 	</header>
 
 	<!-- Nav -->
@@ -56,8 +74,8 @@
 		<article class="post featured">
 			<p style="text-align:center">Click the image to view my most current resume in a new page and/or dowload my
 				resume to your local machine.</p>
-			<a href="images/TYLER M._SCHERZER_Resume.pdf" target="_blank">
-				<img class="img_fluid" alt="open pdf" src="images/Resume_Screenshot.jpg" style="max-width: 100%; height: auto;">
+			<a href="images/TYLER M._SCHERZER_Resume.pdf" target="_blank" class="zoomable-container">
+				<img class="zoomable-image" alt="open pdf" src="images/Resume_Screenshot.jpg" width="700" height="700" style="max-width: 100%; height: auto;">
 			</a>	
 		</article>
 
