@@ -74,9 +74,17 @@
 		<article class="post featured">
 			<p style="text-align:center">Click the image to view my most current resume in a new page and/or dowload my
 				resume to your local machine.</p>
-			<a href="images/TYLER M SCHERZER RESUME.pdf" target="_blank" class="zoomable-container">
-				<img class="zoomable-image" alt="open pdf" src="images/Resume2024.png" width="700" height="700" style="max-width: 100%; height: auto;">
-			</a>	
+				<a href="images/TYLER M SCHERZER RESUME.pdf" target="_blank" class="zoomable-container">
+					<img class="zoomable-image" alt="open pdf" src="images/Resume2024.png" 
+						width="700" height="700" style="max-width: 100%; height: auto;" 
+						onclick="window.open('images/TYLER M SCHERZER RESUME.pdf', '_blank');">
+				</a>
+				<script>
+				function openPDF() {
+					window.open("images/TYLER M SCHERZER RESUME.pdf", "_blank");
+				}
+				</script>
+					
 		</article>
 
 		<ul class="actions special">
